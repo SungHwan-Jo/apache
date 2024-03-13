@@ -1,0 +1,11 @@
+[Tue Jul 25 13:09:07.070158 2023] [mpm_event:notice] [pid 210305:tid 140068801910592] AH00489: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Tue Jul 25 13:09:07.070213 2023] [core:notice] [pid 210305:tid 140068801910592] AH00094: Command line: '/sw/web/apache/bin/httpd'
+[Tue Jul 25 13:09:18.673080 2023] [mpm_event:notice] [pid 210305:tid 140068801910592] AH00491: caught SIGTERM, shutting down
+[Tue Jul 25 13:10:10.855315 2023] [mpm_event:notice] [pid 210404:tid 140305977734976] AH00489: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Tue Jul 25 13:10:10.855363 2023] [core:notice] [pid 210404:tid 140305977734976] AH00094: Command line: '/sw/web/apache/bin/httpd'
+[Tue Jul 25 13:10:17.751435 2023] [mpm_event:notice] [pid 210404:tid 140305977734976] AH00491: caught SIGTERM, shutting down
+[Tue Jul 25 13:10:52.115335 2023] [mpm_event:notice] [pid 210496:tid 140277703464768] AH00489: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Tue Jul 25 13:10:52.115392 2023] [core:notice] [pid 210496:tid 140277703464768] AH00094: Command line: '/sw/web/apache/bin/httpd'
+[Wed Jul 26 14:02:32.200918 2023] [mpm_event:notice] [pid 210496:tid 140277703464768] AH00491: caught SIGTERM, shutting down
+(2)No such file or directory: AH00104: unable to start piped log program 'bin/rotatelogs /logs/apache/access.log_%m%d%Y 86400'
+AH00015: Unable to open logs

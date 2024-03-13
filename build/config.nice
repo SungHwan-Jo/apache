@@ -1,0 +1,14 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/sw/web/apache" \
+"--enable-modules=all" \
+"--enable-mods-shared=all" \
+"--enable-ssl" \
+"--enable-pcre=static" \
+"--with-pcre=/sw/web/httpd-2.4.57/pcre/bin/pcre-config" \
+"--with-openssl=/sw/web/httpd-2.4.57/openssl" \
+"--enable-http2" \
+"$@"
